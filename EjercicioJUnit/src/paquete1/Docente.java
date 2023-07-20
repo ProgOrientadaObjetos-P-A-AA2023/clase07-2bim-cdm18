@@ -1,12 +1,11 @@
 
 package paquete1;
-
 public class Docente {
     private String nombres;
     private String tipo;
     
     public void establecerNombres(String n){
-        nombres = n;
+        nombres = n.toLowerCase();
     }
     
     public String obtenerNombres(){

@@ -82,12 +82,12 @@ public class CiudadTest {
     @Test
     public void testToString() {
         System.out.println("toString");
-        instance.establecerNombre("Cuenca");
+        instance.establecerNombre("Loja");
         instance.establecerPoblacion(500123);
         
         String expResult = String.format("Ciudad de Ecuador\n Nombre: %s\n\n\t"
                 + "Población: %d\n",
-                "Cuenca",
+                "Loja",
                 500123
                 );
         String result = instance.toString();
